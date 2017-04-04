@@ -9,7 +9,9 @@
   },
   "scripts": {
     "start": "DEBUG=main node lib",
-    "debug": "node --inspect --debug-brk lib"
+    "package": "zip -r ./penguin-cronjob_`date +%y.%m.%d`.zip package.json lib",
+    "debug": "node --inspect --debug-brk lib",
+    "prod": "npm install --production"
   },
   "repository": {
     "type": "git",
