@@ -1,0 +1,33 @@
+{
+  "name": "penguin-cronjob",
+  "version": "1.0.0",
+  "description": "Cron Job scheduler for penguin reports",
+  "author": "Andres Garcia",
+  "license": "ISC",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "start": "DEBUG=main node lib",
+    "debug": "node --inspect --debug-brk lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oagarcia/penguin-cronjob"
+  },
+  "keywords": [
+    "penguin",
+    "basecamp",
+    "timesheet",
+    "zemoga"
+  ],
+  "dependencies": {
+    "debug": "^2.6.3",
+    "node-fetch": "^1.5.3",
+    "node-schedule": "^1.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-defaults": "^9.0.0"
+  }
+}
