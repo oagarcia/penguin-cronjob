@@ -13,7 +13,6 @@ Notifies user whose report is not ready
 ## Installation
 
 1. `npm install`
-2. `npm run build` or `babel -w source/ -d build/ -s`
 3. `npm start`
 4. Happy penguins ;)
 
