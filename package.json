@@ -24,7 +24,7 @@
     "zemoga"
   ],
   "dependencies": {
-    "debug": "^2.6.3",
+    "debug": "^3.1.0",
     "node-fetch": "^1.5.3",
     "node-schedule": "^1.2.1"
   },
